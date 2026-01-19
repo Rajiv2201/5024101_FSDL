@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: lightgray;
+}
+
+table {
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #f3f7f3;
+    color: rgb(15, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.submit-btn:active {
+    background-color: #ffffff;
+}
+    margin-left: auto;
+    margin-right: auto;
+}
